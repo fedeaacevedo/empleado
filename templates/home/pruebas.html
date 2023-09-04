@@ -1,0 +1,14 @@
+<h1>Listando elementos</h1>
+
+{{lista_pruebas}}
+
+<ul>
+    
+    {% for prueba in lista_pruebas %}
+        
+    <li>{{prueba.titulo}}</li>
+    
+        {% endfor %}
+        
+</ul>
+
